@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head><title></title></head>
+<link rel="stylesheet" type="text/css" href="css/register.css" >
+<link rel="stylesheet" type="text/css" href="css/CustomerRegistrationHeader.css">
+
+<body>
+		<div class="topnav" id="myTopnav">
+				<a href="#home" class="active">Home</a>
+				<a href="#news">Banking</a>
+				<a href="#contact">Contact</a>
+				<a href="#about">About</a>
+			
+				
+				<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+				  <i class="fa fa-bars"></i>
+				</a>
+			  </div>
+			  <script>
+			function myFunction() {
+			  var x = document.getElementById("myTopnav");
+			  if (x.className === "topnav") {
+				x.className += " responsive";
+			  } else {
+				x.className = "topnav";
+			  }
+			}
+			</script>
+
+<form action="ValidationStepOnePage.html">
+<div class="login-wrap">
+	<div class="login-html">
+		<input id="tab-1" type="radio" name="tab" class="sign-in" checked><label for="tab-1" class="tab">Customer Registration</label>
+		<input id="tab-2" type="radio" name="tab" class="sign-up"><label for="tab-2" class="tab"></label>
+		<div class="login-form">
+			<div class="sign-in-htm">
+				<div class="group">
+					<label for="user" class="label">Customer ID</label>
+					<input id="user" type="text" class="input">
+				</div>
+				<div class="group">
+					<label for="pass" class="label">Name of Person/Bussiness</label>
+					<input id="name-person" type="text" class="input" >
+				</div>
+				<div class="group">
+					<input id="check" type="checkbox" class="check" checked>
+					<label for="check"><span class="icon"></span> Keep me Signed in</label>
+				</div>
+				<div class="group">
+					<input type="submit" class="button" value="Next" >
+				</div>
+				
+			</div>
+			
+		</div>
+	</div>
+</div>
+</form>
+
+</body>
+</html>

@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Login V1</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">	
+	<link rel="stylesheet" type="text/css" href="css/CustomerRegistrationHeader.css">
+
+	<link rel="stylesheet" type="text/css" href="css/new-customer.css">
+</head>
+<body><div class="pos">
+    <div class="topnav" id="myTopnav">
+				<a href="#home" class="active">Home</a>
+				<a href="#news">Banking</a>
+				<a href="#contact">Contact</a>
+				<a href="#about">About</a>
+			
+				
+				<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+				  <i class="fa fa-bars"></i>
+				</a>
+			  </div>
+			  <script>
+			function myFunction() {
+			  var x = document.getElementById("myTopnav");
+			  if (x.className === "topnav") {
+				x.className += " responsive";
+			  } else {
+				x.className = "topnav";
+			  }
+			}
+			</script>
+			</div>
+	<div class="limiter">
+		<div class="container-login100">
+			<div class="wrap-login100">
+
+				<form class="login100-form">
+					<span class="login100-form-title">
+						New Customer Registration form
+					</span>
+
+					<div class="wrap-input100 validate-input">
+						<input class="input100" type="text" id="fname" name="firstname" placeholder="First name">
+						<span class="focus-input100"></span>
+						<span class="symbol-input100">
+							<i class="fa fa-envelope" aria-hidden="true"></i>
+						</span>
+					</div>
+                    
+                    <div class="wrap-input100 validate-input">
+						<input class="input100" type="text" id="lname" name="lastname" placeholder="Last name">
+						<span class="focus-input100"></span>
+						<span class="symbol-input100">
+							<i class="fa fa-envelope" aria-hidden="true"></i>
+						</span>
+					</div>
+                    
+                    <div class="wrap-input100 validate-input">
+						<input class="input100" type="text" id="pan" name="pan" placeholder="Pan number">
+						<span class="focus-input100"></span>
+						<span class="symbol-input100">
+							<i class="fa fa-envelope" aria-hidden="true"></i>
+						</span>
+					</div>
+                    
+                    <div class="wrap-input100 validate-input">
+						<input class="input100" type="text" id="dob" name="dob" placeholder="Date of birth">
+						<span class="focus-input100"></span>
+						<span class="symbol-input100">
+							<i class="fa fa-envelope" aria-hidden="true"></i>
+						</span>
+					</div>
+                    
+                    <div class="wrap-input100 validate-input">
+						<input class="input100" type="text" id="pnum" name="pnum" placeholder="Phone number">
+						<span class="focus-input100"></span>
+						<span class="symbol-input100">
+							<i class="fa fa-envelope" aria-hidden="true"></i>
+						</span>
+					</div>
+
+                    <div class="wrap-input100 validate-input">
+						<input class="input100" type="text" id="pemail" name="pemail" placeholder="Email">
+						<span class="focus-input100"></span>
+						<span class="symbol-input100">
+							<i class="fa fa-envelope" aria-hidden="true"></i>
+						</span>
+					</div>
+
+                    <div class="wrap-input100 validate-input">
+						<input class="input100" type="text" id="anum" name="anum" placeholder="Alternate phone number (optional)">
+						<span class="focus-input100"></span>
+						<span class="symbol-input100">
+							<i class="fa fa-envelope" aria-hidden="true"></i>
+						</span>
+					</div>
+                    
+                    <div class="wrap-input100 validate-input">
+						<input class="input100" type="text" id="aemail" name="aemail" placeholder="Alternate email address (optional)">
+						<span class="focus-input100"></span>
+						<span class="symbol-input100">
+							<i class="fa fa-envelope" aria-hidden="true"></i>
+						</span>
+					</div>
+                    
+                    <div class="wrap-input100 validate-input">
+                        <textarea class="input100" id="address" name="address"  style="height:200px" placeholder="Address"></textarea>
+						<span class="focus-input100"></span>
+						<span class="symbol-input100">
+							<i class="fa fa-envelope" aria-hidden="true"></i>
+						</span>
+					</div>
+                    
+                    <div class="wrap-input100 validate-input">
+						<input class="input100" type="text" id="accountType" name="accountType" placeholder="Account type (Savings or current)">
+						<span class="focus-input100"></span>
+						<span class="symbol-input100">
+							<i class="fa fa-envelope" aria-hidden="true"></i>
+						</span>
+					</div>
+                    
+                    <div class="wrap-input100 validate-input">
+						<input class="input100" type="text" id="deposit" name="deposit" placeholder="Initial deposit amount (Ex: 10,000 INR)">
+						<span class="focus-input100"></span>
+						<span class="symbol-input100">
+							<i class="fa fa-envelope" aria-hidden="true"></i>
+						</span>
+					</div>
+                    
+                    <div class="wrap-input100 validate-input">
+						<input class="input100" type="text" id="maintain" name="maintain" placeholder="Minimum balance amount (Ex: 10,000 INR)">
+						<span class="focus-input100"></span>
+						<span class="symbol-input100">
+							<i class="fa fa-envelope" aria-hidden="true"></i>
+						</span>
+					</div>
+                    
+                    <div class="wrap-input100 validate-input">
+						<input class="input100" type="text" id="overdraft" name="overdraft" placeholder="Overdraft amount for current accounts">
+						<span class="focus-input100"></span>
+						<span class="symbol-input100">
+							<i class="fa fa-envelope" aria-hidden="true"></i>
+						</span>
+					</div>
+					
+					<div class="container-login100-form-btn">
+						<button class="login100-form-btn">
+							Open Account
+						</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>
